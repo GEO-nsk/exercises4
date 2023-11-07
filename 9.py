@@ -1,4 +1,12 @@
-ptr = str(input())
+ptr = ''
+str_ptr = ' '
+
+while str_ptr != '':
+    str_ptr = str(input())
+    ptr += ' '
+    ptr += str_ptr
+
+
 list = []
 new_list = []
 list_of_number = []
